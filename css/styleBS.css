@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+
+#topbar{
+    height: 5vh;
+    background-color: #005248;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    
+}
+.divTopBar{
+    max-height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;    
+}
+    .divTopBar a{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .divTopBar a p{
+        display: none;
+        text-decoration: none;
+    }
+    .divTopBar img{
+        height: 80%;
+    }
+.navbar-brand{
+    height: 100%;
+}
+.navbar-brand img{
+    max-height: 100px;
+}
+.bg-gradiente {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,82,72,1) 95%, rgba(0,82,72,1) 100%, rgba(0,82,72,1) 100%);
+}
+.fontSize13 {
+    font-size: 1.3em;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+#calidadATuMesa {
+    text-decoration: none;
+    font-size: 0.5em;
+    width: max-content;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.850);
+    background-color: rgba(00, 52, 48, 0.70);
+    border-radius: 4em;
+}
+
+
+.indicador {
+    border: black double 6px;
+    background-color: #e0fffb;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.iconoLinks {
+    max-width: 50px;
+}
+.tituloYFoto {
+display: flex;
+justify-content: space-around;
+padding: 5px;
+}
+.cajaTituloLinks {
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+.cajaIconoLinks {
+    text-align: center;
+    width: 50%;
+    margin-right: 20px;
+}
+.divlink {
+    text-align: center;
+    text-decoration: none;
+    color:#005248;
+    padding: 0 6px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+}
+.divText {
+    font-size: .8em;
+    width: auto;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+}
+    h3{
+        font-size: 1em;
+        text-decoration: none;
+        margin: 15px 0;
+        width: auto;
+        text-align: center;
+        color: black;
+        border: black solid 2px;
+        border-radius: .7em;
+        padding: 0 6px;
+    }
+    h3:hover{
+        color: #ffffff;
+        background-color: #005248;
+}
+    h4{
+        margin: 10px 15px;
+    }
+
+
