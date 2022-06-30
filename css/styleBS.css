@@ -347,3 +347,32 @@ padding: 5px;
     }
 
 }
+/* COMIEZA PRODUCTOS  */
+
+#headerProductos {
+    display: flex;
+    justify-content: center;
+}
+#headerProductos h2{
+    background-color: #005248;
+    color: #ffffff;
+    margin: 15px 0;
+    padding: 0 10px;
+    border-radius: 1em;
+}
+.bg-black {
+    background-color: aqua;
+}
+
+div .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div .card {
+    max-width: 40vw;
+    margin: 10px;
+}
+#ulBuscar {
+    list-style: none;
+}
