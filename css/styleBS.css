@@ -265,7 +265,6 @@ padding: 5px;
             flex-direction: row;
             list-style: none;
             justify-content: center;
-            align-items: center;  
          }
         #botones2 li{
             margin: 0 5px;
@@ -287,4 +286,64 @@ padding: 5px;
     }
 .bg-verde{
      background-color: #005248;
+}
+
+@media only screen and (min-width:768px){
+    #calidadATuMesa {
+        font-size: 1em;
+        text-decoration: none;
+    }
+    #envioSinCargo {
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+    .transparencia {
+        padding: 15px;
+        min-width: max-content;
+        
+    }
+}
+
+@media only screen and (min-width:992px){
+
+
+#topbar {
+    height: 5vh;
+}
+    .divTopBar {
+        width: 33vw;
+        text-align: center;
+        
+    }
+    .divTopBar a p{
+    display: block;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.divTopBar a img{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width:1024px){
+    #links2 h3{
+        display: block;
+    }
+    .transparencia {
+            padding: 15px;
+            min-width: max-content;
+            
+    }
+    .transparencia p{
+    font-size: 1.5em;
+
+    }
+    
+    #envioSinCargo {
+        font-size: 2em;
+        text-decoration: none;
+    }
+
 }
